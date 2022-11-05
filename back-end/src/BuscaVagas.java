@@ -16,7 +16,8 @@ public class BuscaVagas {
                 for (Element row : doc.select(
                         fonte.getComponente())) {
                     if (!row.select(fonte.getBuscaTitulo()).text().equals("")) {
-                        final String empresa = row.select(fonte.getBuscaEmpresa()).text();
+                        final String empresa =
+                                row.select(fonte.getBuscaEmpresa()).text().contains("Empresa ConfidencialPor que?") ? "Empresa Confidencial" : row.select(fonte.getBuscaEmpresa()).text();
                         final String titulo = row.select(fonte.getBuscaTitulo()).text();
                         final String local = row.select(fonte.getBuscaLocal()).text();
                         final String site = fonte.getNome();

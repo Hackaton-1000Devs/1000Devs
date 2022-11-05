@@ -10,6 +10,14 @@ public class Main {
                         "a[class=hidden-nested-link]",
                         "h3[class=base-search-card__title]",
                         "span[class=job-search-card__location]"
+                ),
+                new Fonte(
+                        "https://www.catho.com.br/vagas/programador/",
+                        "Catho",
+                        "ul.sc-hrWEMg li",
+                        "p[class=sc-cmTdod hVSlrJ]",
+                        "h2[class=Title__Heading-sc-14fvmc0-0 fGTSAd sc-iELTvK jNpEBd]",
+                        "button[class=sc-iyvyFf kIwChr]"
                 )
         };
 
