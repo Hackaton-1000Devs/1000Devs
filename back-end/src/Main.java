@@ -1,7 +1,4 @@
-import java.io.IOException;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,43 +12,16 @@ public class Main {
                         "span[class=job-search-card__location]"
                 )
         };
-        String result = request(fontes);
 
-        System.out.println(result);
-    }
+        ArrayList<Vaga> vagas = BuscaVagas.request(fontes);
 
-    private static String request(Fonte[] fontes) {
-        StringBuilder sb = new StringBuilder();
-
-        try {
-            sb.append("[\n");
-            for (Fonte fonte : fontes) {
-                final Document doc = Jsoup.connect(fonte.getUrl()).get();
-
-                for (Element row : doc.select(
-                        fonte.getComponente())) {
-                    if (!row.select(fonte.getBuscaTitulo()).text().equals("")) {
-                        final String site = fonte.getNome();
-                        final String empresa = row.select(fonte.getBuscaEmpresa()).text();
-                        final String titulo = row.select(fonte.getBuscaTitulo()).text();
-                        final String local = row.select(fonte.getBuscaLocal()).text();
-
-                        sb.append("\t{\n");
-                        sb.append("\t\t\"fonte\": \"").append(site).append("\"\n");
-                        sb.append("\t\t\"empresa\": \"").append(empresa).append("\"\n");
-                        sb.append("\t\t\"titulo\": \"").append(titulo).append("\"\n");
-                        sb.append("\t\t\"local\": \"").append(local).append("\"\n");
-                        sb.append("\t},\n");
-                    }
-                    else
-                        continue;
-                }
-            }
-            sb.append("]\n");
-        } catch (IOException e) {
-            return null;
+        for (Vaga v : vagas) {
+            System.out.println("*****");
+            System.out.println(v.getSite());
+            System.out.println(v.getEmpresa());
+            System.out.println(v.getTitulo());
+            System.out.println(v.getLocal());
+            System.out.println("*****\n");
         }
-
-        return sb.toString();
     }
 }
