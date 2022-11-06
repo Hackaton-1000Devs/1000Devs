@@ -24,5 +24,5 @@ A aplicação consiste no desenvolvimento de um algoritmo que seja capaz de busc
 |<strong>Beatriz Carvalho</strong>|[Linkedin](https://www.linkedin.com/mwlite/in/beatriz-de-souza-carvalho ) | [Github](https://github.com/BeatrizSouz)|<img src = "imagens/beatriz.jpg" width="90" height="90">|
 |<strong>Kamilla de Almeida</strong>|[Linkedin](https://www.linkedin.com/in/kamilla-de-almeida-e-silva-a3577223a/ ) | [Github](https://github.com/KamillaAS)|<img src = "imagens/kamilla.png" width="90" height="90">|
 |<strong>Alex dos Santos</strong>|[Linkedin](https://www.linkedin.com/in/alex-dos-santos-bomfim-ab5383231/ ) | [Github](https://github.com/Alex-SB7)|<img src = "imagens/alex.jpg" width="90" height="90">|
-|<strong>João Lavigne</strong>|[Linkedin]( ) | [Github](https://github.com/Lavignejao)|<img src = "imagens/.jpg" width="90" height="90">|
+|<strong>João Lavigne</strong>|[Linkedin]( ) | [Github](https://github.com/Lavignejao)|<img src = "imagens/joao.png" width="90" height="90">|
 
