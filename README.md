@@ -19,7 +19,7 @@ A aplicação consiste no desenvolvimento de um algoritmo que seja capaz de busc
 
 |Integrantes da Equipe|Linkedin|Github|Avatar|
 |:---------|:-------:|:------:|:------:|
-|<strong>Bruna Daniel</strong>|[Linkedin]() | [Github]( )|<img src = "imagens/bruno.jpg" width="90" height="90">|
+|<strong>Bruno Daniel</strong>|[Linkedin]( ) | [Github](https://github.com/bdsoares)|<img src = "imagens/bruno.jpg" width="90" height="90">|
 |<strong>Fábia Alves</strong>|[Linkedin](https://www.linkedin.com/in/f%C3%A1bia-alves-a98566146/) | [Github](https://github.com/fabiaalv3s)|<img src = "imagens/fabia.jpg" width="90" height="90">|
 |<strong>Beatriz Carvalho</strong>|[Linkedin]( ) | [Github](https://github.com/BeatrizSouz)|<img src = "imagens/beatriz.jpg" width="90" height="90">|
-|<strong>Kamilla de Almeida</strong>|[Linkedin]( ) | [Github](https://github.com/KamillaAS)|<img src = "imagens/kamilla.jpg" width="90" height="90">|
+|<strong>Kamilla de Almeida</strong>|[Linkedin]( ) | [Github](https://github.com/KamillaAS)|<img src = "imagens/kamilla.png" width="90" height="90">|
