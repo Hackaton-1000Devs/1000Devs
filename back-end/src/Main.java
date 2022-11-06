@@ -9,7 +9,8 @@ public class Main {
                         "ul.jobs-search__results-list li",
                         "a[class=hidden-nested-link]",
                         "h3[class=base-search-card__title]",
-                        "span[class=job-search-card__location]"
+                        "span[class=job-search-card__location]",
+                        "a[href]"
                 ),
                 new Fonte(
                         "https://www.catho.com.br/vagas/programador/",
@@ -17,7 +18,8 @@ public class Main {
                         "ul.sc-hrWEMg li",
                         "p[class=sc-cmTdod hVSlrJ]",
                         "h2[class=Title__Heading-sc-14fvmc0-0 fGTSAd sc-iELTvK jNpEBd]",
-                        "button[class=sc-iyvyFf kIwChr]"
+                        "button[class=sc-iyvyFf kIwChr]",
+                        "a[href]"
                 )
         };
 
@@ -29,6 +31,7 @@ public class Main {
             System.out.println(v.getEmpresa());
             System.out.println(v.getTitulo());
             System.out.println(v.getLocal());
+            System.out.println(v.getLinkVaga());
             System.out.println("*****\n");
         }
     }

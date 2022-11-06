@@ -21,8 +21,9 @@ public class BuscaVagas {
                         final String titulo = row.select(fonte.getBuscaTitulo()).text();
                         final String local = row.select(fonte.getBuscaLocal()).text();
                         final String site = fonte.getNome();
+                        final String LinkVaga = row.select(fonte.getLinkVagas()).attr("href");
 
-                        vagas.add(new Vaga(empresa, titulo, local, site));
+                        vagas.add(new Vaga(empresa, titulo, local, site, LinkVaga));
                     }
                     else
                         continue;
