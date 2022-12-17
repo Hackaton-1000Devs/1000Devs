@@ -1,6 +1,6 @@
 
 <p align="center">
-<h1 align="center"> Academia 1000 DEVS - Mesttra  </h1>
+<h1 align="center"> Academia mesttra, turma 1000Deevs 2022 -   </h1>
 
 <h2> 📑 Hackathon - objetivo </h2>
 <p>
